@@ -1,0 +1,179 @@
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+/*-----------------NAVBAR------------------------*/
+.navbar {
+    background-color: white !important;
+    border: transparent !important;
+}
+
+.navbar-brand {
+    color: violet !important;
+    font-size: 30px !important;
+}
+
+.btnactive {
+    background-color: violet !important;
+    color: white !important;
+    border-radius: 20px !important;
+    padding: 10px 40px 10px 40px !important;
+    margin-top: 2px;
+}
+
+/*-----------------BANNER--------------------------*/
+.carousel-caption{
+    position: absolute;
+    top: 45%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+  }
+
+.bg-overlay {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .2)), url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    color: #fff;
+    height: 600px;
+    padding-top: 50px;
+}
+
+.banner {
+    margin-top: 10%;
+}
+
+.btn-primary{
+    background-color: violet !important;
+    border: transparent !important;
+}
+
+.about,.structure,.dashboard,.icon{
+    padding-top: 5%;
+}
+
+/*-----------------ABOUT---------------------*/
+#aboutbg {
+    border: 8px solid violet;
+    width: 80%;
+    padding-bottom: 55%;
+    position: absolute;
+    left: 20%;
+    bottom: 35%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+.aboutimg {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+/*----------------ICON---------------------------*/
+#icon{
+    background:linear-gradient(270deg, #C3E0E5 50%,white 50%);
+}
+.iconctn>h1{
+    padding-left: 20%;
+}
+
+/*-----------------STRUCTURE-----------------------*/
+#structbg {
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    z-index: -1;
+    border: 8px solid violet;
+    width: 80%;
+    padding-bottom: 50%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+.structimg {
+    left: 25%;
+    top: 30%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+/*-------------------REVIEW---------------------*/
+.review{
+    box-shadow: 0px 0px 10px gray;
+}
+.reviewimg{
+    width: 40%;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+
+/*--------------------SIGNOPT--------------------*/
+.btn-signup{
+    margin-left: 5%;
+    background-color: violet;
+    color: white;
+    border-radius: 20px;
+}
+
+
+/*---------------------SIGNUP----------------------*/
+.bd-overlay {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .2)), url("banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    color: #fff;
+    height: 800px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.small{
+    padding:7.5px 70px 7.5px 70px;
+    border-radius: 7px;
+    border: transparent;
+    opacity: 0.6;
+
+}
+.big {
+    padding:20px 50px 20px 50px;
+    border-radius: 7px;
+    border: transparent;
+    opacity: 0.6;  
+}
+
+.btn-submit{
+    padding: 6px 95px 7px 95px;
+    border-radius: 7px;
+    border: transparent;
+    background-color:violet;
+    color: white
+}
+.submit{
+    padding-top:15%;
+}
+
+#signupopt,#dashboard{
+    background-color: #C3E0E5;
+}
+
+.ctnclr{
+    color:violet;  
+}
+
+
